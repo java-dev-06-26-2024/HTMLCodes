@@ -1,0 +1,13 @@
+/* selector{
+key : values;
+}
+ */
+
+ h1{
+    color: green;
+ }
+ h2 {
+   color: red; 
+   width: 300px;
+   border: 1px solid green;
+ }

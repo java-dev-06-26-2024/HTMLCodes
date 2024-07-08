@@ -1,0 +1,69 @@
+/* selector{
+    key:value;
+} */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    background-color: blanchedalmond;
+}
+
+#heading1{
+    color: bisque;
+}
+
+.class1{
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.class2{
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+}
+
+[title="box1"]{
+    background-color: antiquewhite;
+}
+
+[class ="class1"]{
+    background-color: brown;
+}
+
+
+
+h1,p,#heading1,.class1 {
+    border: 1px solid black;
+    
+}
+
+#myItemList > li {
+ border: 1px dotted red;
+}
+
+
+
+#myDivContainer a{
+    background-color: blue;
+}
+
+#myItemList2 + p{
+    background-color: aliceblue;
+}
+
+
+#myItemList2 ~ p{
+    background-color: darksalmon;
+}

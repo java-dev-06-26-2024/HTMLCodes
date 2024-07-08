@@ -1,0 +1,46 @@
+#div1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    /* margin: 20px;
+    padding: 20px; */
+    color: navajowhite;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: right;
+    margin-top: 25px;
+    border-radius: 50%;
+
+}
+
+#img1{
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 50px;
+}
+
+
+#maindiv{
+   background-color: antiquewhite;
+   width: 500px;
+   height: 500px;
+   border: 1px solid black;
+   margin: auto;
+   margin-top: 200px;
+   position: relative;
+}
+
+#subDiv{
+    background-color: rgb(217, 65, 23);
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: auto;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}

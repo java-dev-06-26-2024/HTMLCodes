@@ -1,0 +1,8 @@
+#middleDiv {
+  width: 30%;
+  height: 300px;
+  position: absolute;
+  border: 1px solid black;
+  top: 30%;
+  left: 35%;
+}
