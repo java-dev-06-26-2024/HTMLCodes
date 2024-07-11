@@ -148,7 +148,7 @@
 // AND    door1 -> door2 -> door3 =>  output
 
 // AND &&   only if all conditions are true => output true => otherwise false.
-            //      ------------------- AND && ----------------------
+            //     ------------------- AND && ----------------------
             //    condition 1         condition 2      => output
             //       true                 false        =>   false 
             //       true                 true         =>   true
@@ -209,9 +209,9 @@ console.log( (("blue" == "blue") && (5 > 2)) || ((65 % 5 == 0) && ( 16 >= 16)));
 //          true and false    or     true        => true
 console.log(true && (6 *2 >=15) || ( 5+10 === 15)); // 10T
 
-//            --------------------------false-------------------------------
-//                       true             and ---------------false----------
-//           -----------true------------  and not ------------true-----------
+//            -------------------------- false -------------------------------
+//                       true             and  ---------------false----------
+//           -----------true------------  and  not  ------------true---------
 //           (    true     or    true   )  and not (      true      or    true)
 console.log((("a" === "a") || ("b" == "b")) && !(( "c" !== "d") || ("d" != "e") )); // 8F  2T
 
