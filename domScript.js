@@ -3,7 +3,7 @@ body.setAttribute("style", "background-color:blue;");
 
 const header = document.getElementById("domh1");
 
-header.setAttribute("style", "color:white;");
+header.setAttribute("style", "color:white;"); 
 
 const div = document.createElement("div");
 div.setAttribute("id", "box");
