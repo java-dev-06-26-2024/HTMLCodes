@@ -2,6 +2,7 @@
 
 // if else
 // else if 
+// switch
 
 // if else 
 
@@ -64,6 +65,7 @@ if(trafficLight == "red"){
 
 
 // Switch
+
 
 
 // switch(expression){
@@ -208,6 +210,7 @@ while(j >=400){
     console.log(j);
     j--;
 }
+
 // create a code, 50, 51, 52, ..................350;
 let k = 50;
 while(k <=350){
